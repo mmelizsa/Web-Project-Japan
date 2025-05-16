@@ -1,0 +1,188 @@
+body{
+    background-color: rgb(248, 229, 120);
+}
+.Heian {
+    color: rgb(133, 54, 133);
+}
+p {
+    color: black
+}
+.Sengoku {
+    color: rgb(200, 60, 60);
+}
+.Edo {
+color:rgb(113, 113, 223) ;
+}
+.Meiji {
+    color:rgb(34, 34, 114) ;
+}
+.Murasaki-Shikibu-img {
+    width: 150px; height: auto;
+}
+.shogun-img{
+    width: 200px;height: auto;
+}
+.Meiji-img{
+    width: 200px;height: auto;
+}
+.Tokugawa-Ieyasu-img{
+width: 200px;height: auto;
+}
+.ombre-line{
+    width: 300px;
+    height: 10px;
+    background:repeating-linear-gradient( 
+        to right,
+        rgb(184, 112, 184),
+        rgb(184, 112, 184) 10px,
+        transparent 10px,
+        transparent 20px,
+        rgb(226, 74, 74) 20px,
+        rgb(226, 74, 74) 30px,
+        transparent 30px,
+        transparent 40px
+    );
+    background-size: 80px 4px;
+    animation: dash-glow 2s linear infinite;
+
+}
+@keyframes dash-glow{
+    0%{
+        background-position:0 0;
+    }
+    100%{
+        background-position:80px 0;
+    }
+}
+.second-line{
+    width: 300px;
+    height: 10px;
+    background:repeating-linear-gradient( 
+        to right,
+        rgb(234, 58, 58),
+        rgb(234, 58, 58) 10px,
+        transparent 10px,
+        transparent 20px,
+        rgb(101, 99, 238) 20px,
+        rgb(101, 99, 238) 30px,
+        transparent 30px,
+        transparent 40px
+    );
+    background-size: 80px 4px;
+    animation: dash-glow 2s linear infinite;
+
+}
+@keyframes dash-glow{
+    0%{
+        background-position:0 0;
+    }
+    100%{
+        background-position:80px 0;
+    }
+}
+.third-line{
+    width: 300px;
+    height: 10px;
+    background:repeating-linear-gradient( 
+        to right,
+        rgb(101, 99, 238),
+        rgb(101, 99, 238) 10px,
+        transparent 10px,
+        transparent 20px,
+        rgb(16, 14, 105) 20px,
+        rgb(16, 14, 105) 30px,
+        transparent 30px,
+        transparent 40px
+    );
+    background-size: 80px 4px;
+    animation: dash-glow 2s linear infinite;
+
+}
+@keyframes dash-glow{
+    0%{
+        background-position:0 0;
+    }
+    100%{
+        background-position:80px 0;
+    }
+}
+.background-container{
+    position:relative;
+    width: 100%;
+    height:100vh;
+    background-image:url('../Images/castle-japan.jpeg');
+    background-size:cover;
+    background-position:center;
+    color:black;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    flex-direction:column;
+    transition:filter 0.3s ease;
+    filter: grayscale(0%)
+     } 
+      
+      .background-container:hover {
+        filter: grayscale(100%);
+      }
+      
+
+
+  .pop-img {
+    transition: transform 0.5s ease, box-shadow 0.5s ease;
+  }
+  
+  .pop-img:hover {
+    transform: scale(1.1);
+    box-shadow: 0 10px 20px rgb(62, 128, 202);
+  }
+  nav ul{
+    list-style: none;
+    padding: 0;
+}
+nav li{
+    margin:10px 0;
+}
+nav a{
+    text-decoration:none ;
+    color: rgb(53, 14, 79);
+    padding: 10px 15px;
+    border-radius: 7px;
+    display: inline-block;
+    transition: background-color 0.4s ease, color 0.4s ease;
+}
+nav a:hover{
+    background-color: rgb(244, 236, 128);
+    color:rgb(69, 23, 84);
+}
+nav {
+    background-color: rgb(227, 179, 229);
+    padding: 10px;
+}
+.responsive-container{
+    background-color: rgb(244, 236, 128);
+    color: black;
+    text-align: left;
+    padding: 20px;
+}
+@media (max-width: 768px) {
+    .container {
+      background-color: rgb(201, 157, 237);
+      font-size: 16px;
+      padding: 10px;
+      text-align: center;
+    }
+  }
+  .filter-image {
+    background-image: url('../Images/castle-japan.jpeg');
+    background-size: cover;
+    background-position: center;
+    filter: grayscale(0%);
+    transition: filter 0.3s ease;
+  }
+  
+  .filter-image:hover {
+    filter: grayscale(100%);
+  }
+  
+  
