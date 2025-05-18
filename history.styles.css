@@ -174,7 +174,7 @@ nav {
     }
   }
   .filter-image {
-    background-image: url('../Images/castle-japan.jpeg');
+    background-image: url('castle-japan.jpeg');
     background-size: cover;
     background-position: center;
     filter: grayscale(0%);
